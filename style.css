@@ -271,9 +271,31 @@ footer a {
     } 
 
 }
+@media (max-width: 375px) {
+    .top_main_footer.first_flex.auth,
+    .top_main_footer.first_flex.googplay,
+    .top_main_footer.first_flex.appstore,{
+        
+        
+    }
+    .top_main_footer .second_flex h2, .top_main_footer .third_flex h2{
+        font-size:8px;
+        font-weight: 400;}
 
+        footer.main_footer{
+            width: 360px !important;
+        }
+    .top_main_footer{
+        margin-top: 0;        
+    }
 
+    .top_main_footer
+    .second_flex .text_blue{
+        margin-top: 0px !important ;
+        margin-left: 0px;
+    }
 
+}
 
 
 /*onwubiko okem precious*/
